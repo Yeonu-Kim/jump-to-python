@@ -144,3 +144,32 @@ b=SafeFourCal(12,4)
 print(b.div())
 #3.0
 
+# mod 1.py
+#def add(a,b):
+#    return a+b
+
+#def mul(a,b):
+#    return a*b
+
+#if __name__ == "__main__":
+#    print(add(6,7))
+#    13
+#    print(mul(6,7))
+#    42
+
+#자동으로 디렉터리가 이동되는 듯
+import mod1
+print(mod1.add(3,4))
+print(mod1.mul(3,4))
+
+from mod1 import add
+print(add(3,4))
+
+from mod1 import *
+print(add(5,6))
+print(mul(5,6))
+
+#13, 42출력 없이 실행됨.
+    
+ 
+
